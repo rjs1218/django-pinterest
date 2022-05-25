@@ -2,7 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import django
 
+print(django.get_version())
 
 def main():
     """Run administrative tasks."""
